@@ -2793,7 +2793,7 @@ input, select, textarea {
 		background: #1c1c1c;
 		color: #d2f2e9;
 		height: 100%;
-		overflow-y: auto;
+		overflow-y: hidden;
 		position: fixed;
 		text-align: center;
 		top: 0;
@@ -2894,6 +2894,8 @@ input, select, textarea {
 						display: block;
 						padding: 0.25em 0;
 						text-decoration: none;
+
+
 					}
 
 						#header > nav ul li a.active {
